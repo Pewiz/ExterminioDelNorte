@@ -110,7 +110,7 @@ header h1 {
   background-size: cover;
   background-position: center;
   transition: all 0.1s ease-out;
-  background-image: url("assets/img/banner-1.jpg");
+  background-image: url("assets/img/banner1.jpeg");
   animation: banner 28s infinite linear;
 }
 
@@ -130,35 +130,35 @@ header h1 {
 
 @keyframes banner {
   0% {
-    background-image: url("assets/img/banner-1.jpg");
+    background-image: url("assets/img/banner1.jpeg");
   }
 
   25% {
-    background-image: url("assets/img/banner-1.jpg");
+    background-image: url("assets/img/banner1.jpeg");
   }
 
   26% {
-    background-image: url("assets/img/banner-2.jpg");
+    background-image: url("assets/img/banner2.jpeg");
   }
 
   50% {
-    background-image: url("assets/img/banner-2.jpg");
+    background-image: url("assets/img/banner2.jpeg");
   }
 
   51% {
-    background-image: url("assets/img/banner-4.jpeg");
+    background-image: url("assets/img/banner3.jpeg");
   }
 
   75% {
-    background-image: url("assets/img/banner-4.jpeg");
+    background-image: url("assets/img/banner3.jpeg");
   }
 
   76% {
-    background-image: url("assets/img/3.jpg");
+    background-image: url("assets/img/banner4.jpeg");
   }
 
   100% {
-    background-image: url("assets/img/3.jpg");
+    background-image: url("assets/img/banner4.jpeg");
   }
 }
 
