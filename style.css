@@ -9,6 +9,7 @@
   margin: 0px auto;
   background-image: url(assets/img/paven.png);
 }
+
 /******************************** PARTE SUPERIOR ********************************/
 header {
   width: 100%;
@@ -46,7 +47,8 @@ header h1 {
   background-color: #eee;
   margin-left: -35px;
 }
-#logo-responsive{
+
+#logo-responsive {
   display: none;
 }
 
@@ -63,42 +65,49 @@ header h1 {
   display: flex;
   justify-content: flex-end;
 }
-#menu ul{
+
+#menu ul {
   display: flex;
   list-style: none;
 }
-#menu ul ul{
+
+#menu ul ul {
   display: none;
 }
-#menu a{
+
+#menu a {
   display: block;
   padding: 50px 35px;
   color: #eee;
   text-transform: uppercase;
   text-decoration: none;
 }
-#menu-arrow{
+
+#menu-arrow {
   margin-left: 8px;
 }
-#menu a:hover{
+
+#menu a:hover {
   background-color: #738a4c;
 }
 
-#menu ul li:hover ul{
+#menu ul li:hover ul {
   display: block;
   position: absolute;
   background-color: #444;
   text-shadow: 0px 0px 20px rgb(255, 255, 255) initial;
   border-radius: 4px;
 }
-#menu ul li ul li a{
+
+#menu ul li ul li a {
   padding: 15px 10px;
 }
 
-#topbar label{
+#topbar label {
   display: none;
 }
-#btn-menu{
+
+#btn-menu {
   display: none;
 }
 
@@ -110,7 +119,7 @@ header h1 {
   background-size: cover;
   background-position: center;
   transition: all 0.1s ease-out;
-  background-image: url("assets/img/banner1.jpeg");
+  background-image: url("assets/img/banner-1.jpg");
   animation: banner 28s infinite linear;
 }
 
@@ -130,35 +139,35 @@ header h1 {
 
 @keyframes banner {
   0% {
-    background-image: url("assets/img/banner1.jpeg");
+    background-image: url("assets/img/banner-1.jpg");
   }
 
   25% {
-    background-image: url("assets/img/banner1.jpeg");
+    background-image: url("assets/img/banner-1.jpg");
   }
 
   26% {
-    background-image: url("assets/img/banner2.jpeg");
+    background-image: url("assets/img/banner-2.jpg");
   }
 
   50% {
-    background-image: url("assets/img/banner2.jpeg");
+    background-image: url("assets/img/banner-2.jpg");
   }
 
   51% {
-    background-image: url("assets/img/banner3.jpeg");
+    background-image: url("assets/img/banner-4.jpeg");
   }
 
   75% {
-    background-image: url("assets/img/banner3.jpeg");
+    background-image: url("assets/img/banner-4.jpeg");
   }
 
   76% {
-    background-image: url("assets/img/banner4.jpeg");
+    background-image: url("assets/img/3.jpg");
   }
 
   100% {
-    background-image: url("assets/img/banner4.jpeg");
+    background-image: url("assets/img/3.jpg");
   }
 }
 
@@ -196,34 +205,39 @@ header h1 {
   width: 80%;
   margin-left: 143px;
 }
-#logo{
+
+#logo {
   position: absolute;
   width: 32%;
   margin-left: 391px;
   margin-top: 436px;
 }
 
-#mision, #vision, #objetivos{
+#mision,
+#vision,
+#objetivos {
   position: absolute;
   width: 110px;
   height: 110px;
   margin-top: 134px;
   box-shadow: 0px 0px 15px #444;
   border-radius: 999px;
-  
+
 }
 
-#mision{    
+#mision {
   left: 295px;
   overflow: hidden;
 }
-#mision img{
+
+#mision img {
   position: absolute;
   width: 117%;
   margin-top: 25px;
   left: -18px;
 }
-#h6-mision{
+
+#h6-mision {
   position: absolute;
   font-size: 20px;
   font-weight: 500;
@@ -231,24 +245,28 @@ header h1 {
   margin-left: 91px;
   color: #333333;
 }
-#p-mision{
+
+#p-mision {
   position: absolute;
   font-size: 16px;
   margin-left: -51px;
   margin-top: 344px;
   width: 22%;
 }
-#vision{
+
+#vision {
   overflow: hidden;
   margin-left: 647px;
 }
-#vision img{
+
+#vision img {
   position: absolute;
   width: 74%;
   margin-top: 36px;
   margin-left: 16px;
 }
-#h6-vision{
+
+#h6-vision {
   position: absolute;
   font-size: 20px;
   font-weight: 500;
@@ -256,24 +274,28 @@ header h1 {
   margin-left: 675.5px;
   color: #333333;
 }
-#p-vision{
+
+#p-vision {
   position: absolute;
   font-size: 16px;
   margin-left: 529px;
   margin-top: 344px;
   width: 22%;
 }
-#objetivos{
+
+#objetivos {
   overflow: hidden;
   margin-left: 1278px;
 }
-#objetivos img{
+
+#objetivos img {
   position: absolute;
   width: 72%;
   margin-top: 15px;
   margin-left: 19px;
 }
-#h6-objetivos{
+
+#h6-objetivos {
   position: absolute;
   font-size: 20px;
   font-weight: 500;
@@ -281,54 +303,62 @@ header h1 {
   margin-left: 1284px;
   color: #333333;
 }
-#p-objetivos{
+
+#p-objetivos {
   position: absolute;
   font-size: 16px;
   margin-left: 1144px;
   margin-top: 344px;
   width: 22%;
 }
-.div-a > img{
-    width: 15%;
-    position: absolute;
+
+.div-a>img {
+  width: 15%;
+  position: absolute;
 }
-.div-b > img{
-    width: 15%;
-    position: absolute;
+
+.div-b>img {
+  width: 15%;
+  position: absolute;
 }
-.div-a  img{
+
+.div-a img {
   width: 586px;
   height: 400px;
   margin-left: 288px;
   margin-top: 109px;
   z-index: 1;
   box-shadow: 0px 0px 18px #444;
-  
+
 }
-.div-b img{
+
+.div-b img {
   width: 586px;
   height: 400px;
   margin-left: 1019px;
   margin-top: 100px;
   z-index: 1;
   box-shadow: 0px 0px 18px #444;
-  
+
 }
-.div-a h2{
+
+.div-a h2 {
   margin-left: 908px;
   padding-top: 200px;
   font-size: 45px;
   font-weight: 400;
   color: #3C424F;
 }
-.div-b h2{
+
+.div-b h2 {
   margin-left: 456px;
   padding-top: 200px;
   font-size: 45px;
   font-weight: 400;
   color: #3C424F;
 }
-.div-a h6{
+
+.div-a h6 {
   position: absolute;
   font-size: 17px;
   letter-spacing: 2px;
@@ -338,7 +368,8 @@ header h1 {
   margin-left: 908px;
   margin-top: 145px;
 }
-.div-b h6{
+
+.div-b h6 {
   position: absolute;
   font-size: 17px;
   letter-spacing: 2px;
@@ -349,7 +380,7 @@ header h1 {
   margin-top: 145px;
 }
 
-.div-a-p{
+.div-a-p {
   width: 280px;
   margin-top: 40px;
   margin-left: 908px;
@@ -359,7 +390,7 @@ header h1 {
   text-align: left;
 }
 
-.div-b-p{
+.div-b-p {
   width: 280px;
   margin-top: 40px;
   margin-left: 456px;
@@ -369,17 +400,19 @@ header h1 {
 }
 
 .div-a {
-    background-color:  rgb(211, 211, 211) ;
-    width: 102.5%;
-    height: 600px;
+  background-color: rgb(211, 211, 211);
+  width: 102.5%;
+  height: 600px;
 }
-.div-b{
-    height: 600px;
-    width: 102.5%;
-    background-color:  #ebe9e9 ;
-}   
 
-.button , .button-b {
+.div-b {
+  height: 600px;
+  width: 102.5%;
+  background-color: #ebe9e9;
+}
+
+.button,
+.button-b {
   border: 1px solid rgb(41, 41, 41);
   position: absolute;
   margin-top: 33px;
@@ -387,13 +420,14 @@ header h1 {
   line-height: 40px;
   width: 77px;
   text-align: center;
-  
+
 }
-.button-b{
+
+.button-b {
   margin-left: 844px;
 }
 
-.button  a {
+.button a {
   display: block;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -406,7 +440,7 @@ header h1 {
   color: white;
 }
 
-.button-b  a {
+.button-b a {
   display: block;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -434,7 +468,8 @@ header h1 {
   background-position: center;
   background-color: rgba(0, 22, 40, 0.726);
 }
-.banner-sec h1{
+
+.banner-sec h1 {
   font-weight: 400;
   margin-left: 698px;
   margin-top: -420px;
@@ -502,12 +537,14 @@ header h1 {
   margin-top: 30px;
   padding-left: 200px;
 }
-.caja-img img{
+
+.caja-img img {
   position: absolute;
   left: -358px;
   height: 580px;
 }
-.caja-img{
+
+.caja-img {
   position: absolute;
   overflow: hidden;
   width: 450px;
@@ -516,16 +553,19 @@ header h1 {
   margin-left: 1350px;
   box-shadow: 0px 0px 25px #444;
 }
+
 /********************************            ********************************/
 
 /******************************** DESINFECTACION ********************************/
-.banner-sec-desi h1{
+.banner-sec-desi h1 {
   margin-left: 632px;
 }
+
 .banner-sec-desi img {
   margin-left: 1030px;
 }
-.caja-img-desi img{
+
+.caja-img-desi img {
   left: -200px;
 }
 
@@ -533,14 +573,16 @@ header h1 {
 
 /******************************** DESRATIZACION********************************/
 
-.banner-desra h1{
+.banner-desra h1 {
   margin-left: 676px;
 }
-.banner-desra img{
+
+.banner-desra img {
   margin-left: 1030px;
   margin-top: 14px;
 }
-.caja-img-desra img{
+
+.caja-img-desra img {
   width: 450px;
   left: 0px;
 }
@@ -548,33 +590,37 @@ header h1 {
 
 /********************************            ********************************/
 /******************************** PULVERIZACION********************************/
-.banner-pulve h1{
+.banner-pulve h1 {
   margin-left: 284px;
 }
-.caja-img-pulve img{
+
+.caja-img-pulve img {
   left: -140px;
 }
 
 /********************************            ********************************/
 /******************************** DESINSECTACION********************************/
 
-.banner-desis img{
+.banner-desis img {
   margin-left: 1030px;
   margin-top: 14px;
 }
-.banner-desis h1{
+
+.banner-desis h1 {
   margin-left: 642px;
 }
-.caja-img-desis img{
+
+.caja-img-desis img {
   left: -112px;
 }
 
 /********************************            ********************************/
 /******************************** TERMONBULIZACION********************************/
-.banner-termo h1{
+.banner-termo h1 {
   margin-left: 540px;
 }
-.caja-img-termo img{
+
+.caja-img-termo img {
   left: -30px;
 }
 
@@ -588,7 +634,7 @@ header h1 {
   height: 976px;
 }
 
-#contactanos > h2 {
+#contactanos>h2 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
@@ -666,7 +712,7 @@ header h1 {
 
 #map-2 {
   position: absolute;
-  width: 700px;
+  wbanner
   height: 400px;
   margin-left: 1100px;
   margin-top: 100px;
@@ -686,17 +732,19 @@ footer {
   font-size: 15px;
   font-weight: 300;
 }
+
 /********************************            ********************************/
 
 
 
 /********************************  @MEDIA  ********************************/
 
-@media (max-width: 948px){
-  #logo-1{
+@media (max-width: 948px) {
+  #logo-1 {
     display: none;
   }
-  #logo-responsive{
+
+  #logo-responsive {
     display: block;
     position: absolute;
     width: 9%;
@@ -705,8 +753,8 @@ footer {
 }
 
 /*Topbar*/
-@media (max-width: 918px){
-  #topbar label{
+@media (max-width: 918px) {
+  #topbar label {
     display: block;
     margin-left: 91%;
     margin-top: 32px;
@@ -715,7 +763,8 @@ footer {
     cursor: pointer;
     color: white;
   }
-  #menu{
+
+  #menu {
     position: absolute;
     top: 119px;
     right: 0;
@@ -726,301 +775,396 @@ footer {
     transform: translateX(131%);
     transition: all 0.5s;
   }
-  #menu ul{
+
+  #menu ul {
     display: block;
   }
-  #menu ul li:hover ul{
+
+  #menu ul li:hover ul {
     position: static;
     background-color: rgb(41, 41, 41);
   }
-  #menu ul li:hover ul a{
+
+  #menu ul li:hover ul a {
     padding: 14px;
   }
 
-  #menu  a{
-    padding: 28px ;
-    
+  #menu a {
+    padding: 28px;
+
   }
-  #btn-menu:checked ~ #menu{
+
+  #btn-menu:checked~#menu {
     transform: translateX(0%);
   }
 }
 
 
 /*TOPBAR IMG*/
-@media (max-width:1657px){
-  #logo-1{
+@media (max-width:1657px) {
+  #logo-1 {
     width: 192px;
     margin-top: 15px;
   }
 }
-@media (max-width:1407px){
-  #logo-1{
+
+@media (max-width:1407px) {
+  #logo-1 {
     padding-left: 10px;
   }
 }
-@media (max-width:1256px){
-  #logo-1{
+
+@media (max-width:1256px) {
+  #logo-1 {
     width: 161px;
     margin-top: 23px;
   }
 }
-@media (max-width:1096px){
-  #logo-1{
+
+@media (max-width:1096px) {
+  #logo-1 {
     width: 133px;
     margin-top: 30px;
   }
 }
 
+@media (max-width: 600px) {
+  #mision {
+    left: 149px;
+
+  }
+
+  #h6-mision {
+    margin-left: 44px;
+  }
+
+  #h6-objetivos {
+    margin-left: 329px;
+  }
+
+  #objetivos {
+    margin-left: 324px;
+  }
+}
+
 /*mapas*/
-@media (max-width: 1800px){
-  #map-2{
+@media (max-width: 1800px) {
+  #map-2 {
     margin-left: 990px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 1289px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 1004px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-left: 1194px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 1494px;
   }
 }
-@media (max-width: 1696px){
-  #map-2{
+
+@media (max-width: 1696px) {
+  #map-2 {
     margin-left: 901px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 1207px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 910px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-left: 1071px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 1410px;
   }
 }
 
-@media (max-width: 1609px){
-  #map-1{
+@media (max-width: 1609px) {
+  #map-1 {
     margin-left: 39px;
   }
-  #arica{
+
+  #arica {
     margin-left: 328px;
   }
-  #direccion-a{
+
+  #direccion-a {
     margin-left: 68px;
   }
-  #tel-a{
+
+  #tel-a {
     margin-left: 487px;
   }
-  #correo-a{
+
+  #correo-a {
     margin-top: 129px;
     margin-left: 194px;
   }
 
-  #map-2{
+  #map-2 {
     margin-left: 786px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 1070px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 842px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 1266px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-top: 129px;
     margin-left: 977px;
   }
 }
 
-@media (max-width: 1486px){
-  #map-1{
+@media (max-width: 1486px) {
+  #map-1 {
     margin-left: 150px;
     margin-top: 77px;
   }
-  #arica{
+
+  #arica {
     margin-left: 467px;
     margin-top: 27px;
   }
-  #direccion-a{
+
+  #direccion-a {
     margin-left: 159px;
     margin-top: 20px;
   }
-  #tel-a{
+
+  #tel-a {
     margin-left: 616px;
     margin-top: 22px;
   }
-  #correo-a{
+
+  #correo-a {
     margin-top: 81px;
     margin-left: 310px;
   }
 
-  #map-2{
+  #map-2 {
     margin-left: 150px;
     margin-top: 762px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 436px;
     margin-top: 697px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 172px;
     margin-top: 712px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 610px;
     margin-top: 706px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-top: 763px;
     margin-left: 311px;
   }
 }
 
-@media (max-width: 850px){
-  #arica{
+@media (max-width: 850px) {
+  #arica {
     margin-left: 342px;
   }
-  #map-1{
+
+  #map-1 {
     margin-left: 35px;
   }
-  #direccion-a{
+
+  #direccion-a {
     margin-left: 63px;
   }
-  #tel-a{
+
+  #tel-a {
     margin-left: 537px;
   }
-  #correo-a{
+
+  #correo-a {
     margin-left: 238px;
 
   }
-  #map-2{
+
+  #map-2 {
     margin-left: 38px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 329px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 62px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 520px;
     margin-top: 712px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-left: 232px;
   }
 }
 
-@media (max-width:745px){
-  #map-1 , #map-2{
+@media (max-width:745px) {
+
+  #map-1,
+  #map-2 {
     width: 550px;
   }
-  #map-1 iframe , #map-2 iframe , #map-1 , #map-2{
+
+  #map-1 iframe,
+  #map-2 iframe,
+  #map-1,
+  #map-2 {
     width: 550px;
   }
-  #arica{
+
+  #arica {
     margin-left: 274px;
   }
-  #direccion-a{
+
+  #direccion-a {
     margin-left: 38px;
   }
-  #tel-a{
+
+  #tel-a {
     margin-left: 408px;
   }
-  #correo-a{
+
+  #correo-a {
     margin-left: 159px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 261px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 40px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 398px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-left: 164px;
   }
 }
 
 
-@media (max-width:599px){
-  #map-1 iframe , #map-2 iframe , #map-1 , #map-2{
+@media (max-width:599px) {
+
+  #map-1 iframe,
+  #map-2 iframe,
+  #map-1,
+  #map-2 {
     width: 360px;
     height: 287px;
   }
-  #arica{
+
+  #arica {
     margin-left: 177px;
   }
-  #direccion-a{
+
+  #direccion-a {
     margin-left: 6px;
   }
-  #tel-a{
+
+  #tel-a {
     margin-left: 228px;
   }
-  #correo-a{
+
+  #correo-a {
     margin-left: 3px;
     margin-top: 72px;
   }
-  #map-2{
+
+  #map-2 {
     margin-top: 608px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 172px;
     margin-top: 550px;
   }
-  #direccion-i{
+
+  #direccion-i {
     margin-left: 8px;
     margin-top: 556px;
   }
-  #tel-i{
+
+  #tel-i {
     margin-left: 226px;
     margin-top: 556px;
   }
-  #correo-i{
+
+  #correo-i {
     margin-left: 3px;
     margin-top: 611px;
   }
 
 
-  #contactanos{
+  #contactanos {
     height: 1211px;
   }
 }
 
-@media(max-width:1497px){
-  #contactanos{
+@media(max-width:1497px) {
+  #contactanos {
     height: 1582px;
   }
 }
 
-@media (max-width: 389px){
-  #map-1 iframe , #map-2 iframe , #map-1 , #map-2{
+@media (max-width: 389px) {
+
+  #map-1 iframe,
+  #map-2 iframe,
+  #map-1,
+  #map-2 {
     width: 340px;
     height: 287px;
   }
-  #map-1 , #map-2{
+
+  #map-1,
+  #map-2 {
     margin-left: 11px;
   }
 }
-@media (max-width: 360px){
-  #arica{
+
+@media (max-width: 360px) {
+  #arica {
     margin-left: 127px;
   }
-  #iquique{
+
+  #iquique {
     margin-left: 115px;
     margin-top: 550px;
   }
@@ -1029,385 +1173,528 @@ footer {
 
 
 /*Nosotros*/
-@media (max-width: 1737px){
-  #objetivos{
+@media (max-width: 1737px) {
+  #objetivos {
     margin-left: 1178px;
   }
-  #h6-objetivos{
+
+  #h6-objetivos {
     margin-left: 1190px;
   }
-  #p-objetivos{
+
+  #p-objetivos {
     margin-left: 1055px;
   }
 }
 
-@media (max-width: 1600px){
-  #mision{
+@media (max-width: 1600px) {
+  #mision {
     left: 241px;
   }
-  #h6-mision{
+
+  #h6-mision {
     margin-left: 84px;
   }
-  #p-mision{
+
+  #p-mision {
     margin-left: -27px;
     margin-top: 327px;
   }
-  #vision{
+
+  #vision {
     margin-left: 529px;
   }
-  #h6-vision{
+
+  #h6-vision {
     margin-left: 555px;
   }
-  #p-vision{
+
+  #p-vision {
     margin-left: 434px;
     margin-top: 327px;
   }
-  #objetivos{
+
+  #objetivos {
     margin-left: 1005px;
   }
-  #h6-objetivos{
+
+  #h6-objetivos {
     margin-left: 1015px;
   }
-  #p-objetivos{
+
+  #p-objetivos {
     margin-left: 918px;
     margin-top: 327px;
   }
 }
 
-@media (max-width:1392px){
-  #vision{
+@media (max-width:1392px) {
+  #vision {
     margin-left: 644px;
   }
-  #h6-vision{
+
+  #h6-vision {
     margin-left: 667px;
   }
-  #p-vision{
+
+  #p-vision {
     margin-left: 585px;
   }
-  #objetivos{
+
+  #objetivos {
     margin-left: 356px;
     margin-top: 433px;
   }
-  #h6-objetivos{
+
+  #h6-objetivos {
     margin-left: 361px;
     margin-top: 562px;
   }
-  #p-objetivos{
+
+  #p-objetivos {
     margin-left: 272px;
     margin-top: 602px;
   }
 
 }
-@media (max-width:1327px){
-  #nosotros{
+
+@media (max-width:1327px) {
+  #nosotros {
     height: 1141px;
   }
 }
-@media (max-width: 895px){
-  #nosotros{
+
+@media (max-width: 895px) {
+  #nosotros {
     height: 1629px;
   }
 }
-@media (max-width: 801px){
-  #nosotros{
+
+@media (max-width: 801px) {
+  #nosotros {
     height: 1745px;
   }
 }
-@media (max-width: 667px){
-  #nosotros{
+
+@media (max-width: 667px) {
+  #nosotros {
     height: 1830px;
   }
 }
-@media (max-width: 614px){
-  #nosotros{
+
+@media (max-width: 614px) {
+  #nosotros {
     height: 1877px;
   }
 }
-@media (max-width: 608px){
-  #nosotros{
+
+@media (max-width: 608px) {
+  #nosotros {
     height: 2297px;
   }
 }
-@media (max-width: 1000px){
+
+@media (max-width: 1000px) {
   #mision {
     left: 140px;
   }
-  #h6-mision{
+
+  #h6-mision {
     margin-left: 39px;
   }
+
   #objetivos {
     margin-left: 318px;
   }
-  #h6-objetivos{
+
+  #h6-objetivos {
     margin-left: 327px;
   }
 }
-@media (max-width: 891px){
-  #mision{
+
+@media (max-width: 891px) {
+  #mision {
     left: 130px;
   }
-  #vision{
+
+  #vision {
     margin-left: 220px;
     margin-top: 466px;
   }
-  #h6-vision{
+
+  #h6-vision {
     margin-left: 246px;
     margin-top: 596px;
   }
-  #p-vision{
+
+  #p-vision {
     margin-left: 194px;
     margin-top: 641px;
   }
-  #objetivos{
+
+  #objetivos {
     margin-left: 428px;
     margin-top: 844px;
   }
-  #h6-objetivos{
+
+  #h6-objetivos {
     margin-left: 430px;
     margin-top: 976px;
   }
-  #p-objetivos{
+
+  #p-objetivos {
     margin-left: 392px;
     margin-top: 1019px;
   }
 }
 
-@media(max-width:614px){
-  #nosotros-sub{
+@media(max-width:614px) {
+  #nosotros-sub {
     margin-left: 60px;
   }
-  #mision{
+
+  #mision {
     left: 88px;
   }
-  #h6-mision , #h6-vision , #h6-objetivos{
+
+  #h6-mision,
+  #h6-vision,
+  #h6-objetivos {
     margin-left: 61px;
   }
-  #p-mision , #p-vision , #p-objetivos{
+
+  #p-mision,
+  #p-vision,
+  #p-objetivos {
     width: 184px;
     margin-left: 16px;
   }
-  #vision{
+
+  #vision {
     margin-left: 42px;
     margin-top: 549px;
   }
-  #h6-vision{
+
+  #h6-vision {
     margin-top: 682px;
   }
-  #p-vision{
+
+  #p-vision {
     margin-top: 732px;
   }
-  #objetivos{
+
+  #objetivos {
     margin-top: 936px;
     margin-left: 42px;
   }
-  #h6-objetivos{
+
+  #h6-objetivos {
     margin-left: 52px;
     margin-top: 1070px;
   }
-  #p-objetivos{
+
+  #p-objetivos {
     margin-top: 1115px;
   }
 }
 
-@media(max-width: 392px){
-  #nosotros h2{
+@media(max-width: 392px) {
+  #nosotros h2 {
     font-size: 40px;
   }
-  #nosotros-sub{
+
+  #nosotros-sub {
     margin-left: 13px;
   }
 }
 
 
 /*Contenido*/
-@media (max-width: 1610px){
-  .div-b img{
+@media (max-width: 1610px) {
+  .div-b img {
     margin-left: 752px;
   }
-  .div-b h6{
+
+  .div-b h6 {
     margin-left: 245px;
   }
-  .div-b h2{
+
+  .div-b h2 {
     margin-left: 242px;
   }
-  .div-b-p{
+
+  .div-b-p {
     margin-left: 248px;
   }
-  .button-b{
+
+  .button-b {
     margin-left: 579px;
-  } 
+  }
 }
 
-@media (max-width: 1343px){
-  .div-b img{
+@media (max-width: 1343px) {
+  .div-b img {
     margin-left: 489px;
   }
-  .div-b h6{
+
+  .div-b h6 {
     margin-left: 23px;
   }
-  .div-b h2{
+
+  .div-b h2 {
     margin-left: 18px;
   }
-  .div-b-p{
+
+  .div-b-p {
     margin-left: 26px;
   }
-  .button-b{
+
+  .button-b {
     margin-left: 271px;
-  } 
+  }
 }
 
-@media (max-width: 1269px){
-  .div-a img{
+@media (max-width: 1269px) {
+  .div-a img {
     margin-left: 18px;
   }
-  .div-a h6{
+
+  .div-a h6 {
     margin-left: 640px;
   }
-  .div-a h2{
+
+  .div-a h2 {
     margin-left: 637px;
   }
-  .div-a-p{
+
+  .div-a-p {
     margin-left: 642px;
   }
-  .button-a{
+
+  .button-a {
     margin-left: 642px;
-  } 
+  }
 }
-@media (max-width:1080px){
-  .div-a  img{
+
+@media (max-width:1080px) {
+  .div-a img {
     width: 377px;
     height: 300px;
   }
-  .div-b img{
+
+  .div-b img {
     width: 377px;
     height: 300px;
   }
 }
 
-@media (max-width: 1000px){
-  .div-a h6{
+@media (max-width: 1000px) {
+  .div-a h6 {
     margin-left: 430px;
   }
-  .div-a h2{
+
+  .div-a h2 {
     margin-left: 430px;
   }
-  .div-a-p{
+
+  .div-a-p {
     margin-left: 430px;
   }
-  .button{
+
+  .button {
     margin-left: 433px;
   }
-  .div-b img{
+
+  .div-b img {
     margin-left: 460px;
-  } 
+  }
 }
-@media (max-width: 850px){
-  .button-b{
+
+@media (max-width: 850px) {
+  .button-b {
     margin-top: -20px;
   }
 }
 
-@media (max-width: 844px){
-  .div-a{
+@media (max-width: 844px) {
+  .div-a {
     height: 760px;
   }
-  .div-a img{
+
+  .div-a img {
     margin-left: 138px;
     margin-top: 26px;
   }
-  .div-a h6{
+
+  .div-a h6 {
     margin-left: 149px;
     margin-top: 359px;
   }
-  .div-a h2{
+
+  .div-a h2 {
     position: absolute;
     margin-left: 145px;
     margin-top: 199px;
   }
-  .div-a-p{
+
+  .div-a-p {
     position: absolute;
     margin-left: 151px;
     margin-top: 482px;
   }
-  .button{
+
+  .button {
     margin-left: 386px;
     margin-top: 654px;
   }
-  .div-b{
+
+  .div-b {
     height: 790px;
     margin-top: -41px;
   }
-  .div-b img{
+
+  .div-b img {
     margin-left: 143px;
     margin-top: 40px;
   }
-  .div-b h6{
+
+  .div-b h6 {
     margin-left: 154px;
     margin-top: 372px;
   }
-  .div-b h2{
+
+  .div-b h2 {
     position: absolute;
     margin-left: 148px;
     margin-top: 206px;
   }
-  .div-b-p{
+
+  .div-b-p {
     position: absolute;
     margin-top: 488px;
     margin-left: 154px;
   }
-  .button-b{
+
+  .button-b {
     margin-top: 687px;
     margin-left: 381px;
   }
 }
-@media (max-width: 661px){
-  .div-a{
+
+@media (max-width:667px) {
+
+  .div-a img,
+  .div-b img {
+    margin-left: 19px;
+    width: 333px;
+    height: 290px;
+  }
+
+  #arica {
+    margin-left: 144px;
+  }
+
+  #tel-a {
+    margin-left: 104px;
+    margin-top: 57px;
+  }
+
+  #direccion-a {
+    margin-left: 81px;
+  }
+
+  #correo-a {
+    margin-top: 90px;
+  }
+
+  #iquique {
+    margin-left: 550px;
+  }
+
+  #tel-i {
+    margin-left: 100px;
+    margin-top: 598px;
+  }
+
+  #direccion-i {
+    margin-left: 81px;
+  }
+
+  #correo-i {
+    margin-top: 635px;
+  }
+}
+
+@media (max-width: 661px) {
+  .div-a {
     height: 766px;
   }
-  .div-b{
+
+  .div-b {
     height: 762px;
   }
 }
 
-@media (max-width:598px){
-  .div-b img , .div-a img{
+@media (max-width:598px) {
+
+  .div-b img,
+  .div-a img {
     margin-left: 18px;
     width: 360px;
   }
-  .div-b h6 , .div-a h6{
+
+  .div-b h6,
+  .div-a h6 {
     margin-left: 32px;
   }
-  .div-b h2 , .div-a h2{
+
+  .div-b h2,
+  .div-a h2 {
     margin-left: 30px;
   }
-  .div-b-p , .div-a-p{
+
+  .div-b-p,
+  .div-a-p {
     margin-left: 43px;
   }
-  .button-b , .button{
+
+  .button-b,
+  .button {
     margin-top: 673px;
     margin-left: 284px;
   }
-  #termo{
+
+  #termo {
     font-size: 35px;
   }
 
 }
 
-@media (max-width:374px){
-  .div-b img , .div-a img{
+@media (max-width:374px) {
+
+  .div-b img,
+  .div-a img {
     margin-left: 8px;
     width: 344px;
   }
-  .div-b h6 , .div-a h6{
+
+  .div-b h6,
+  .div-a h6 {
     margin-left: 18px;
   }
-  .div-b h2 , .div-a h2{
+
+  .div-b h2,
+  .div-a h2 {
     margin-left: 8px;
   }
-  .div-b-p , .div-a-p{
+
+  .div-b-p,
+  .div-a-p {
     margin-left: 20px;
   }
-  .button-b , .button{
+
+  .button-b,
+  .button {
     margin-top: 673px;
     margin-left: 250px;
   }
@@ -1416,20 +1703,22 @@ footer {
 /**********************************PAGINA SECUNDARIA**********************/
 
 /*Topbar*/
-@media(max-width:1591px){
-  .banner-sec h1{
+@media(max-width:1591px) {
+  .banner-sec h1 {
     margin-left: 98px;
   }
-  #division{
+
+  #division {
     margin-left: -114px;
   }
-  .banner-sec img{
+
+  .banner-sec img {
     margin-left: 441px;
   }
 }
 
-@media(max-width:1422px){
-  #division{
+@media(max-width:1422px) {
+  #division {
     width: 483px;
   }
 
@@ -1438,13 +1727,14 @@ footer {
 
 /*Imagen*/
 
-@media(max-width:1800px){
-  .caja-img{
+@media(max-width:1800px) {
+  .caja-img {
     margin-left: 1133px;
   }
 }
-@media(max-width:1599px){
-  .caja-img{
+
+@media(max-width:1599px) {
+  .caja-img {
     margin-left: 1018;
   }
 }
@@ -1452,142 +1742,172 @@ footer {
 
 
 /*Contenido*/
-@media(max-width:1586px){
-  #info-sec h4, #info-sec h2, #info-sec p{
+@media(max-width:1586px) {
+
+  #info-sec h4,
+  #info-sec h2,
+  #info-sec p {
     padding-left: 20px;
-    
+
   }
-  .caja-img{
+
+  .caja-img {
     margin-left: 849px;
   }
 }
 
-@media(max-width:1316px){
-  #info-sec{
+@media(max-width:1316px) {
+  #info-sec {
     margin-top: 724px;
     height: 742px;
   }
-  .caja-img{
+
+  .caja-img {
     margin-left: 199px;
     top: 725px;
   }
-  #info-sec p{
+
+  #info-sec p {
     width: 800px;
   }
 }
 
-@media(max-width:828px){
+@media(max-width:828px) {
   #info-sec p {
     width: 600px;
   }
 }
-@media(max-width:670px){
-  .caja-img{
+
+@media(max-width:670px) {
+  .caja-img {
     margin-left: 100px;
   }
-  .banner-sec h1{
+
+  .banner-sec h1 {
     margin-left: 9px;
   }
-  #division{
+
+  #division {
     width: 361px;
   }
-  .banner-sec img{
+
+  .banner-sec img {
     margin-left: 286px;
   }
 }
-@media(max-width:630px){
-  #info-sec{
+
+@media(max-width:630px) {
+  #info-sec {
     height: 969px;
   }
-  #info-sec p{
+
+  #info-sec p {
     width: 335px;
   }
-  .caja-img{
+
+  .caja-img {
     margin-left: 12px;
   }
 }
-@media (max-width:520px){
-  .banner-sec h1{
+
+@media (max-width:520px) {
+  .banner-sec h1 {
     margin-top: -466px;
     margin-left: 15px;
   }
-  #division{
+
+  #division {
     width: 287px;
     top: 311px;
     height: 154px;
     margin-left: -115px;
     transform: skewX(119deg);
   }
-  .banner-sec img{
+
+  .banner-sec img {
     top: 393px;
     margin-left: 176px;
   }
 }
-@media (max-width:463px){
-  .caja-img{
+
+@media (max-width:463px) {
+  .caja-img {
     width: 335px;
   }
-  .caja-img img{
+
+  .caja-img img {
     left: -434px;
   }
-  #info-sec{
+
+  #info-sec {
     height: 1060px;
   }
-  .banner-sec img{
+
+  .banner-sec img {
     top: 412px;
     margin-left: 111px;
   }
 
 }
-@media(max-width:374px){
-  .caja-img{
+
+@media(max-width:374px) {
+  .caja-img {
     width: 310px;
     height: 516px;
     top: 796px;
   }
-  .caja-img img{
+
+  .caja-img img {
     left: -387px;
     height: 518px;
   }
-  #info-sec{
+
+  #info-sec {
     height: 1175px;
   }
-  #info-sec p{
+
+  #info-sec p {
     width: 274px;
   }
 }
 
 /*Termonbulizacion*/
 
-@media(max-width:1587px){
-  .banner-termo h1{
-  margin-top:-500px;
-  margin-left: 6px;
+@media(max-width:1587px) {
+  .banner-termo h1 {
+    margin-top: -500px;
+    margin-left: 6px;
   }
 }
-@media(max-width:442px){
-  #info-sec h2{
+
+@media(max-width:442px) {
+  #info-sec h2 {
     font-size: 32px;
   }
-  .banner-termo h1{
+
+  .banner-termo h1 {
     font-size: 25px;
   }
 }
 
-@media(max-width:463px){
-  .caja-img-termo img{
+@media(max-width:463px) {
+  .caja-img-termo img {
     left: -75px;
   }
-  .caja-img-desi img{
+
+  .caja-img-desi img {
     left: -249px;
   }
-  .caja-img-desra img{
+
+  .caja-img-desra img {
     left: -61px;
   }
-  .caja-img-pulve img{
+
+  .caja-img-pulve img {
     left: -241px;
   }
-  .caja-img-desis img{
+
+  .caja-img-desis img {
     left: -218px;
   }
 }
